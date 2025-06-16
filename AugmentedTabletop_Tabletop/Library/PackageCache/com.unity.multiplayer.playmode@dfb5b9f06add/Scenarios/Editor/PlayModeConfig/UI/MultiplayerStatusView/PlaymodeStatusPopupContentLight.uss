@@ -1,0 +1,14 @@
+@import url("../icons.uss");
+
+.idle #status-indicator{
+    background-image: var(--icon-idle-light);
+}
+
+.status-icon {
+    width: 20px;
+    height: 20px;
+    background-image: var(--icon-window-light);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px 14px;
+}
